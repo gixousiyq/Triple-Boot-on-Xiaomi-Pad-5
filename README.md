@@ -1,11 +1,12 @@
-Triple Boot Linux Android Windows on Xiaomi Pad 5
+# Triple Boot Linux Android Windows on Xiaomi Pad 5
 
-IT CAN BREAK YOURE TABLET **DO IT ON YOU OWN RISK**
+>[!WARNING]
+>IT CAN BREAK YOURE TABLET DO IT ON YOU OWN RISK
+>
+>THE DATA WILL BE ERASED MAKE SURE YOU BACKED UP THEM
+>
+>This project is beta
 
-THE DATA WILL BE ERASED MAKE SURE YOU BACKED UP THEM
+## Installition guide
 
-This project is beta
-
-Installition guide
-
-[Install](https://youtu.be/dQw4w9WgXcQ?si=wMOww5UkWQWmTuUx)
+Install(https://youtu.be/dQw4w9WgXcQ?si=wMOww5UkWQWmTuUx)
