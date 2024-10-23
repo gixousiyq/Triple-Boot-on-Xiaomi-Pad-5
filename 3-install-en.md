@@ -1,8 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Running Windows on the Xiaomi Pad 5
-> [!WARNING]
-> **PLEASE DON'T USE ANY VIDEO GUIDES AS THESE ARE USUALLY OUTDATED AND CAN AND PROBABLY WILL BRICK YOUR NABU!!! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=8Fl5AtHNH7M) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Installation
 
@@ -17,7 +15,7 @@
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-### Boot back into the modded recovery
+### Boot into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
@@ -27,6 +25,12 @@ fastboot boot path\to\recovery.img
 > If it asks you to run it once again, do so
 ```cmd
 adb shell msc
+```
+
+### Make partition space for Wndows
+> If it asks you to run it once again, do so
+```cmd
+adb shell partition
 ```
 
 ### Assign letters to WINNABU and ESPNABU
