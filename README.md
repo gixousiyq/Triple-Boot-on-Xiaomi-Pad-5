@@ -9,6 +9,7 @@
 
 
 in this guide we will use 80GB for windows and linux and the rest will be for android
+but you can do what you want
 
 in this guide we will use KALI LINUX by @Timofey
 ## Installition guide
