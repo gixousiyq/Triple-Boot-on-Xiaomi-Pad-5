@@ -14,4 +14,4 @@ but you can do what you want
 in this guide we will use KALI LINUX by @Timofey
 ## Installition guide
 
-Install(https://youtu.be/dQw4w9WgXcQ?si=wMOww5UkWQWmTuUx)
+[1st. Install windows Guide by @erdilS]
