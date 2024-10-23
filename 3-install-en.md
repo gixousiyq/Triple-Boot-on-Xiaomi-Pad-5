@@ -32,7 +32,7 @@ adb shell msc
 ### Make partition space for Wndows
 > If it asks you to run it once again, do so
 ```cmd
-adb shell partition
+adb shell partition 80
 ```
 
 ### Assign letters to WINNABU and ESPNABU
