@@ -14,4 +14,4 @@ but you can do what you want
 in this guide we will use KALI LINUX by @Timofey
 ## Installition guide
 
-[1st. Install windows Guide by @erdilS]
+[1st. Install windows Guide by @erdilS](https://github.com/Xyy155/Triple-Boot-on-Xiaomi-Pad-5/blob/main/3-install-en.md)
