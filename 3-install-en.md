@@ -43,6 +43,12 @@ fastboot boot path\to\recovery.img
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
+### Make a backup of your existing dtbo image
+> YOU WILL NEED IT
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo$(getprop ro.boot.slot_suffix) of=/tmp/dtbo.img" && adb pull /tmp/dtbo.img
+```
+
 ### Execute msc 
 > If it asks you to run it once again, do so
 ```cmd
