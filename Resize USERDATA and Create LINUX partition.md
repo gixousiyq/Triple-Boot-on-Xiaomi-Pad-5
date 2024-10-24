@@ -20,3 +20,18 @@ adb shell
 ```cmd
 parted /dev/block/sda
 ```
+
+### print partition information
+> to see partition numbers and space
+```cmd
+print
+```
+
+### Resize USERDATA
+> For make space for linux partition , DONT REMOVE GB!
+```cmd
+resize # @GB $GB
+```
+- REPLACE # with USERDATA partition Number
+- REPLACE @ with (USERDATA start Minus space you want for linux) Number
+- REPLACE $ with (USERDATA end) Number
