@@ -30,10 +30,11 @@ adb shell msc
 ```
 
 ### Make partition space for Wndows
-> If it asks you to run it once again, do so
+> DO NOT ADD GB
 ```cmd
-adb shell partition 80
+adb shell partition $
 ```
+- REPLACE $ with space you want for Windows
 
 ### Assign letters to WINNABU and ESPNABU
 > Open the **DriveLetterAssigner** script and press `Y` on you your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
