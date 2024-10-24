@@ -5,7 +5,7 @@
 >
 >THE DATA WILL BE ERASED MAKE SURE YOU BACKED UP THEM
 >
->This project is beta
+>This guide is beta
 
 
 > [!NOTE]
