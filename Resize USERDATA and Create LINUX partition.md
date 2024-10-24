@@ -1,5 +1,6 @@
 # Resize USERDATA and Create LINUX partition
 
+#### You dont need create esp for LINUX becuase Windows installation guide create esp automatically
 
 ### After setting up Windows , Now reboot to fastboot
 - Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
