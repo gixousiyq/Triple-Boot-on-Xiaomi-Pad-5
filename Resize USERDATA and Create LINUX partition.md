@@ -27,6 +27,9 @@ parted /dev/block/sda
 print
 ```
 
+>[!WARNING]
+>REMEMBER THE USERDATA START NUMBER BEFORE RESIZE , YOU WILL USE IT ON LINUX PARTITION CREATE STEP
+
 ### Resize USERDATA
 > For make space for linux partition , DONT REMOVE GB!
 ```cmd
