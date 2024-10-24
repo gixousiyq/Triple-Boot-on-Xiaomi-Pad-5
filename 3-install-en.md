@@ -17,10 +17,30 @@
 
 - [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+
+> [!NOTE]
+> Don't know how to start? Unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), then open ```command prompt``` or `powershell` as administrator and run the following command, replacing `"path\to\platform-tools"` with the actual path of the platform tools folder
+```cmd
+cd "path\to\platform-tools"
+```
+> Use this window throughout the entire guide. Do not close it.
+
+#### Reboot to **fastboot** 
+- Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
+
+- Connect it to your PC/Laptop using a cable
+
 ### Boot into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
+```
+
+### Make a backup of your existing boot image
+> YOU WILL NEED IT
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 ### Execute msc 
