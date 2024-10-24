@@ -80,8 +80,9 @@ adb reboot bootloader
 ```cmd
 fastboot boot path\to\nabu-uefi.img
 ```
+>Now Windows will boot
 
-###Now finish SETTING UP windows
+### Now finish setting up on Windows
 
 
 
