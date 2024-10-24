@@ -55,3 +55,13 @@ mkpart linux ext4 #GB $GB
 ```cmd
 print
 ```
+
+### Exit the SHELL
+> for exit parted tool type
+```cmd
+quit
+```
+> for exit adb shell press CTRL + D or type
+```cmd
+exit
+```
