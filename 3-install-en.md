@@ -81,8 +81,7 @@ adb reboot bootloader
 fastboot boot path\to\nabu-uefi.img
 ```
 
-### Reboot to Android
-Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
+###Now finish SETTING UP windows
 
 
 
