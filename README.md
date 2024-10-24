@@ -8,8 +8,11 @@
 >This project is beta
 
 
-in this guide we will use 80GB for windows and linux and the rest will be for android
-but you can do what you want
+> [!NOTE]
+> - We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back into android for the alarm.
+> - This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+
+
 
 in this guide we will use KALI LINUX by @timoxa0
 
