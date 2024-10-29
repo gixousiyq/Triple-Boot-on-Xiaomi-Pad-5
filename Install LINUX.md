@@ -33,7 +33,13 @@ lon-tool deploy /PATH/TO/IMAGE.LNI
 
 ### Wait for LON-TOOL DEPLOYER to flash LINUX
 
-#### After deploy image Reboot to FASTBOOT
+### After deploy image You need to Enter USERDATA 
+> to enter USERDATA You need to Format from Recovery
+### Reboot to Recovery
+- Boot your NABU into **Recovery** by holding down the **`volume up`** button during reboot
+- on Recovery Click FORMAT
+
+#### Reboot to FASTBOOT
 - Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
 
 ### Disable Vbmeta
