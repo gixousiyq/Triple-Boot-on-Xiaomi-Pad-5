@@ -59,3 +59,5 @@ fastboot flash boot PATH/TO/BOOT.IMG
 ```cmd
 fastboot reboot
 ```
+
+# [NEXT STEP: ROOT Android](/guide/ROOT-Android.md)
