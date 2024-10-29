@@ -66,3 +66,5 @@ quit
 ```cmd
 exit
 ```
+
+# [NEXT STEP: Install LINUX](/guide/Install-LINUX.md)
