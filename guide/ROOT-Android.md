@@ -28,3 +28,5 @@ fastboot reboot
 ```
 ## Now You have rooted Android
 ##### DONT DELETE root.boot.img YOU WILL NEED IT !!!
+
+# [NEXT STEP: Create Boot Image For LINUX](/guide/Create-Boot-Image-For-LINUX.md)
