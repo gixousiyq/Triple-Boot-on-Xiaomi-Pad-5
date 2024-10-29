@@ -36,6 +36,14 @@ lon-tool deploy /PATH/TO/IMAGE.LNI
 #### After deploy image Reboot to FASTBOOT
 - Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
 
+### Disable Vbmeta
+#### You Can Download Image [HERE](https://www.mediafire.com/file/pjy486vglviww10/vbmeta_disabled.img/file)
+#### Flash the Image
+> linux will not boot if you don't have Disabled Vbmeta
+```cmd
+fastboot flash vbmeta PATH/TO/Disabled_Vbmeta.IMG
+```
+
 ### Flash android boot Image
 > You Need to boot android and root to continue guide
 ```cmd
