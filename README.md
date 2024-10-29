@@ -21,4 +21,5 @@ in this guide we will use KALI LINUX by [<img alt="timoxa0" src="https://avatars
 make sure you have unlocked bootloader NABU
 ## Installation guide
 
-[1st. Install windows Guide by @erdilS](https://github.com/Xyy155/Triple-Boot-on-Xiaomi-Pad-5/blob/main/3-install-en.md)
+[1st. Install windows Guide by @erdilS](/Install Windows)
+[2nd. 
