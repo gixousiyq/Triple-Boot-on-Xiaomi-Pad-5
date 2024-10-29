@@ -21,5 +21,14 @@ in this guide we will use KALI LINUX by [<img alt="timoxa0" src="https://avatars
 make sure you have unlocked bootloader NABU
 ## Installation guide
 
-[1st. Install windows Guide by @erdilS](/Install Windows)
-[2nd. 
+[1st. Install windows Guide by @erdilS](/guide/Install-Windows.md)
+>
+[2nd. Resize USERDATA and Create LINUX partition](/guide/Resize-USERDATA-and-Create-LINUX-partition.md)
+>
+[3rd. Install LINUX](/guide/Install-LINUX.md)
+>
+[4th. ROOT Android](/guide/ROOT-Android.md)
+>
+[5th. Create Boot Image For LINUX](/guide/Create-Boot-Image-For-LINUX.md)
+>
+[6th. Booting Programs](guide/Booting-Programs.md)
