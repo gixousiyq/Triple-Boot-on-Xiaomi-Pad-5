@@ -111,7 +111,7 @@ fastboot boot path\to\nabu-uefi.img
 
 ### Now finish setting up on Windows
 
-
+# [NEXT STEP: Resize USERDATA and Create LINUX partition](/guide/Resize-USERDATA-and-Create-LINUX-partition.md)
 
 
 
