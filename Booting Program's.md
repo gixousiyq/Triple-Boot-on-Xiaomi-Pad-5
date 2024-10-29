@@ -19,6 +19,7 @@
 #### You don't need to Dump android images Because You already have it
 - move `linux.boot.img` to `/sdcard/linux/` on youre NABU
 - open the app and press `Switch to Linux` to set-up linux
+### when linux put youre Username And Password youre putted them on LON-TOOL DEPLOYER
 ### on linux you need to download and install [s2a] by [<img alt="timoxa0" src="https://avatars.githubusercontent.com/u/29687603?v=4" width="35" />](https://github.com/timoxa0)
 ### Download and install file named `s2a.zip` from [HERE](https://git.timoxa0.su/timoxa0/Switch2Linux-Nabu/releases)
 - Unzip `s2a.zip`
