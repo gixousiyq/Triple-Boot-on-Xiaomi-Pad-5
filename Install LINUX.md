@@ -27,3 +27,17 @@ lon-tool deploy /PATH/TO/IMAGE.LNI
 >Found compatible partition table. Do you want to change it? [y/N]
 >
 >PLEASE SAY NO!
+>
+
+### Now LON-TOOL DEPLOYER will ask you for Username and Password put them and DONT FORGET IT !
+
+### Wait for LON-TOOL DEPLOYER to flash LINUX
+
+#### After deploy image Reboot to FASTBOOT
+- Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
+
+### Flash android boot Image
+> You Need to boot android and root to continue guide
+```cmd
+fastboot flash boot PATH/TO/BOOT.IMG
+```
