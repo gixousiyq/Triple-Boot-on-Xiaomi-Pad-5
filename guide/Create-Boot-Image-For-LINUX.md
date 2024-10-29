@@ -39,3 +39,5 @@ bash mklonimg.sh path/to/vmlinuz path/to/dtb
 8. #### Image will be created in current working directory with name linux.boot.img
 
 ### Done!
+
+# [NEXT STEP: Booting Programs](guide/Booting-Programs.md)
