@@ -16,7 +16,7 @@
 
 
 
-in this guide we will use KALI LINUX by @timoxa0
+in this guide we will use KALI LINUX by [<img alt="timoxa0" src="https://avatars.githubusercontent.com/u/29687603?v=4" width="35" />](https://github.com/timoxa0)
 
 make sure you have unlocked bootloader NABU
 ## Installation guide
