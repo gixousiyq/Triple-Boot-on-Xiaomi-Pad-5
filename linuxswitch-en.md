@@ -1,39 +1,32 @@
-<img align="right" src="../../assets/nabu.png" width="425" alt="Linux Running On A Xiaomi Pad 5">
+# Create Boot Image For LINUX
 
-# Running Linux on the Xiaomi Pad 5
+## If You have linux boot image or You using [KALI LINUX](https://github.com/Xyy155/Triple-Boot-on-Xiaomi-Pad-5/releases/tag/image) You don't have to do that
 
-## [←](./install-en.md) Dualbooting using switch2linux
+> [!NOTE]
+> ### If you have [KALI LINUX](https://github.com/Xyy155/Triple-Boot-on-Xiaomi-Pad-5/releases/tag/image) You can find linux.boot.img BUT USE IT ONLY FOR THIS KALI IMAGE!
 
 ### Prerequisites
 - Brain
-
-- Rooted android
-
-- Already installed Linux
-  
+ 
 - [mklonimg.cmd (Windows)](https://git.timoxa0.su/timoxa0/mklonimg/raw/branch/main/mklonimg.cmd)
 
 - [mklonimg.sh (Linux/macOS)](https://git.timoxa0.su/timoxa0/mklonimg/raw/branch/main/mklonimg.sh)
 
 - [Python 3](https://www.python.org/downloads/)
 
-- [linux-nabu zip package](https://timoxa0.su/?dir=share/nabu/packages/v3)
+- [dtb and vmlinuz](https://www.mediafire.com/folder/orb4j5rxb2wew/vmlinuz_and_dtb)
 
 ### Creating boot image
 
-1. #### Restore your boot image (can be skipped if you used lon-tool with the -Q flag)
+1. #### Download mklonimg.cmd for Windows or mklonimg.sh for Linux/macOS
 
-2. #### Download mklonimg.cmd for Windows or mklonimg.sh for Linux/macOS
+2. #### Install Python (for Windows select Add Python 3.x to PATH)
 
-3. #### Install Python (for Windows select Add Python 3.x to PATH)
+3. #### Download dtb and vmlinuz 
 
-4. #### Download linux-nabu zip package for your image version 
+4. #### Open cmd (on Windows) or terminal (on Linux/macOS)
 
-5. #### Extract vmlinuz-6.1.10-nabu and dtb-6.1.10-nabu from /boot/efi inside zip
-
-6. #### Open cmd (on Windows) or terminal (on Linux/macOS)
-
-7. #### Run mklonimg
+5. #### Run mklonimg
 ##### Windows
 ```
 .\mklonimg.cmd path\to\vmlinuz path\to\dtb
@@ -44,7 +37,5 @@ bash mklonimg.sh path/to/vmlinuz path/to/dtb
 ```
 
 8. #### Image will be created in current working directory with name linux.boot.img
-
-9. #### Follow switch2linux install guide -> [link](https://git.timoxa0.su/timoxa0/Switch2Linux-Nabu/src/branch/main/README.md)
 
 ### Done!
