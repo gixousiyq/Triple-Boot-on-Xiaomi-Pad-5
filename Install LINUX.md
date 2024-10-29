@@ -41,3 +41,7 @@ lon-tool deploy /PATH/TO/IMAGE.LNI
 ```cmd
 fastboot flash boot PATH/TO/BOOT.IMG
 ```
+> Now Reboot to Android
+```cmd
+fastboot reboot
+```
