@@ -31,6 +31,6 @@ make sure you have unlocked bootloader NABU
 >
 [4th. ROOT Android](/guide/ROOT-Android.md)
 >
-[5th. Create Boot Image For LINUX](/guide/Create-Boot-Image-For-LINUX.md)
+[5th. Create Boot Image For LINUX by @timoxa0](/guide/Create-Boot-Image-For-LINUX.md)
 >
 [6th. Booting Programs](guide/Booting-Programs.md)
