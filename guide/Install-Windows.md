@@ -109,9 +109,9 @@ fastboot boot path\to\nabu-uefi.img
 ```
 >Now Windows will boot
 
-### Now finish setting up on Windows
+### After Windows has booted, Now we will configure partitions and adapt them for the creation of linux system partitions
 
-# [NEXT STEP: Resize USERDATA and Create LINUX partition](/guide/Resize-USERDATA-and-Create-LINUX-partition.md)
+# [NEXT STEP: Resize userdata and Create Linux partition](/guide/Resize-USERDATA-and-Create-LINUX-partition.md)
 
 
 
