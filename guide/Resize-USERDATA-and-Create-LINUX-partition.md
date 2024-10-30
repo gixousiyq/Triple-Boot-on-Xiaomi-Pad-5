@@ -46,6 +46,9 @@ resizepart # @GB
   
   (userdata end) - (Size you want linux to have)
 
+>[!NOTE]
+>This will be our new userdata end
+
 ### Make LINUX partition
 > DO NOT REMOVE GB!
 ```cmd
